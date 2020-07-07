@@ -40,3 +40,23 @@ int main()
     }
     return 0;
 }
+
+
+//백준풀이
+#include <iostream>
+using namespace std;
+int main()
+{
+    //입출력 속도 빠르게
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
+    int t;
+    int a, b;
+    cin>>t;
+    while(t--){
+    cin>>a>>b;
+    cout<<a+b<<'\n';
+    }
+    return 0;
+}
