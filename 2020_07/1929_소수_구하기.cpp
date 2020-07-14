@@ -34,7 +34,6 @@ int main(){
     int N,M;
     cin>>N>>M;
 
-
     check[0]= check[1]= true;   //지워졌으면 true
     for(int i=2; i*i<=MAX; i++){
         if(check[i]==false){
@@ -50,3 +49,7 @@ int main(){
     }
     return 0;
 }
+
+// 전역변수는 false로 초기화되어 있다.
+// 0과 1은 소수가 아니라서, 검사할 필요가 없기 때문에 
+// 미리 check[0] = check[1] = true;로 해놓은 것이다.
