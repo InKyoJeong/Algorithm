@@ -33,9 +33,7 @@
 
 //내풀이
 #include <iostream>
-
 using namespace std;
-
 
 int d[11];
 
@@ -60,9 +58,7 @@ int main(){
 
 // d[0]=1 이다.
 #include <iostream>
-
 using namespace std;
-
 
 int d[11];
 
