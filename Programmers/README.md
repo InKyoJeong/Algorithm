@@ -11,3 +11,4 @@
 > Level 3 : 정수삼각형<br/>
 > Level 1 : 크레인 인형뽑기 게임<br/>
 > Level 2 : 스킬트리<br/>
+> Level 2 : 주식가격<br/>
