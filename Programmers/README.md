@@ -12,4 +12,6 @@
 > Level 1 : 크레인 인형뽑기 게임<br/>
 > Level 2 : 스킬트리<br/>
 > Level 2 : 주식가격<br/>
-> Level 1 : K번째수 [정렬]<br/>
+> Level 1 : K번째수<br/>
+> Level 1 : 두 정수 사이의 합<br/>
+> Level 1 : 제일 작은 수 제거하기<br/>
