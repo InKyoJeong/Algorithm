@@ -16,3 +16,4 @@
 > Level 1 : 두 정수 사이의 합<br/>
 > Level 1 : 제일 작은 수 제거하기<br/>
 > Level 1 : 2016년<br/>
+> Level 2 : 가장 큰 수<br/>
