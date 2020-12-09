@@ -18,3 +18,6 @@
 > Level 1 : 2016년<br/>
 > Level 2 : 가장 큰 수<br/>
 > Level 3 : 등굣길<br/>
+> Level 1 : 문자열 내 p와 y의 개수<br/>
+> Level 1 : 같은 숫자는 싫어<br/>
+> Level 1 : 문자열 내림차순으로 배치하기<br/>
