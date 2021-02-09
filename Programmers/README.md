@@ -29,3 +29,6 @@
 > Level 1 : 핸드폰 번호 가리기<br/>
 > Level 1 : 문자열 다루기 기본<br/>
 > Level 1 : 모의고사<br/>
+> Level 1 : 자연수 뒤집어 배열로 만들기<br/>
+> Level 1 : 행렬의 덧셈<br/>
+> Level 1 : 하샤드 수<br/>
