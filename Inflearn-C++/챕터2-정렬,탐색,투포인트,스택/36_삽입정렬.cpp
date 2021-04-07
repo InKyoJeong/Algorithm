@@ -5,13 +5,11 @@
 // ▣ 출력예제 1
 // 5 6 7 9 10 11
 
-#include <iostream>
-#include <vector>
-
+#include <iostream>  
 using namespace std;
 
 int main()
-{
+{ 
     int n;
     cin >> n;
     int a[100];
