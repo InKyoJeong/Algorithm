@@ -55,14 +55,14 @@
 
 #### 섹션 5. 효율성(투포인터 알고리즘, 슬라이딩윈도우, 해쉬)
 
-- [ ] 35. 두 배열 합치기(Two Pointers Algorithm)
-- [ ] 36. 공통원소구하기(Two Pointers Algorithm)
-- [ ] 37. 연속부분수열1(Two Pointers Algorithm)
-- [ ] 38. 연속부분수열2(Two Pointers Algorithm)
-- [ ] 39. 최대 매출(Sliding Window)
-- [ ] 40. 학급 회장(Hash Map)
-- [ ] 41. 아나그램(Hash Map)
-- [ ] 42. 모든 아나그램 찾기(Hash & Sliding Window && Two Pointers Algorithm)
+- [x] 35. 두 배열 합치기(Two Pointers Algorithm) ●
+- [x] 36. 공통원소구하기(Two Pointers Algorithm) ●
+- [x] 37. 연속부분수열1(Two Pointers Algorithm) ●
+- [x] 38. 연속부분수열2(Two Pointers Algorithm) ●
+- [x] 39. 최대 매출(Sliding Window) ●
+- [x] 40. 학급 회장(Hash Map) ●
+- [x] 41. 아나그램(Hash Map) ●
+- [x] 42. 모든 아나그램 찾기(Hash & Sliding Window && Two Pointers Algorithm) ●
 
 <br>
 
