@@ -54,6 +54,7 @@ function solution(s, t) {
     }
 
     sH.set(s[lt], sH.get(s[lt]) - 1);
+    // 0이면 이제 이 키는 존재하지않으므로 키자체를 삭제하기
     if (sH.get(s[lt]) === 0) {
       sH.delete(s[lt]);
     }
