@@ -34,7 +34,6 @@ bool solution(vector<string> phone_book) {
     int n = phone_book.size()-1;
     sort(phone_book.begin(), phone_book.end());
     
-   
     for(int i=0; i<n; i++){
         int size = phone_book[i].size();
         if(phone_book[i] == phone_book[i+1].substr(0,size)){
