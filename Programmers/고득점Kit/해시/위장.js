@@ -8,6 +8,7 @@ function solution(clothes) {
       obj[e[1]] = 1;
     }
   });
+
   for (let val in obj) {
     answer *= obj[val] + 1;
   }
@@ -34,3 +35,8 @@ function solution(clothes) {
 
   return answer - 1;
 }
+
+// 이렇게도 가능
+// for(let a of sH.values()){
+//   answer *= (a+1)
+// }
