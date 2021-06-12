@@ -1,19 +1,19 @@
 function solution(target, arr) {
   let answer;
-  arr.sort((a, b) => a - b);
-  let start = 0;
-  let end = arr.length - 1;
-  while (start <= end) {
-    let middle = parseInt((end - start) / 2);
-    if (target === arr[middle]) {
-      answer = middle + 1;
-      break;
-    } else if (target < arr[middle]) {
-      end = middle - 1;
-    } else {
-      start = middle + 1;
-    }
-  }
+  // arr.sort((a, b) => a - b);
+  // let start = 0;
+  // let end = arr.length - 1;
+  // while (start <= end) {
+  //   let middle = parseInt((end - start) / 2);
+  //   if (target === arr[middle]) {
+  //     answer = middle + 1;
+  //     break;
+  //   } else if (target < arr[middle]) {
+  //     end = middle - 1;
+  //   } else {
+  //     start = middle + 1;
+  //   }
+  // }
   return answer;
 }
 

@@ -1,24 +1,24 @@
 function solution(size, arr) {
-  let answer = Array.from({ length: size }, () => 0);
-  for (let i = 0; i < arr.length; i++) {
-    let temp = -1;
-    for (let j = 0; j < answer.length; j++) {
-      if (answer[j] === arr[i]) {
-        temp = j;
-      }
-    }
+  // let answer = Array.from({ length: size }, () => 0);
+  // for (let i = 0; i < arr.length; i++) {
+  //   let temp = -1;
+  //   for (let j = 0; j < answer.length; j++) {
+  //     if (answer[j] === arr[i]) {
+  //       temp = j;
+  //     }
+  //   }
 
-    if (temp === -1) {
-      for (let i = answer.length - 1; i >= 1; i--) {
-        answer[i] = answer[i - 1];
-      }
-    } else {
-      for (let i = temp; i >= 1; i--) {
-        answer[i] = answer[i - 1];
-      }
-    }
-    answer[0] = arr[i];
-  }
+  //   if (temp === -1) {
+  //     for (let i = answer.length - 1; i >= 1; i--) {
+  //       answer[i] = answer[i - 1];
+  //     }
+  //   } else {
+  //     for (let i = temp; i >= 1; i--) {
+  //       answer[i] = answer[i - 1];
+  //     }
+  //   }
+  //   answer[0] = arr[i];
+  // }
   return answer;
 }
 

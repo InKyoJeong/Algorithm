@@ -3,11 +3,11 @@
 function solution(s) {
   let answer = "YES";
   // 소문자가 아닌것들을 찾아서 빈문자열로
-  s = s.toLowerCase().replace(/[^a-z]/g, "");
+  // s = s.toLowerCase().replace(/[^a-z]/g, "");
 
-  if (s !== s.split("").reverse().join("")) {
-    return "NO";
-  }
+  // if (s !== s.split("").reverse().join("")) {
+  //   return "NO";
+  // }
   return answer;
 }
 

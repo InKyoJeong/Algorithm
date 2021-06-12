@@ -3,32 +3,32 @@
 
 function solution(test) {
   let answer = 0;
-  let n = test.length;
-  let m = test[0].length;
+  // let n = test.length;
+  // let m = test[0].length;
 
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= m; j++) {
-      let cnt = 0;
-      for (let k = 0; k < n; k++) {
-        let pi = 0;
-        let pj = 0;
-        for (let s = 0; s < m; s++) {
-          if (test[k][s] === i) {
-            pi = s;
-          }
-          if (test[k][s] === j) {
-            pj = s;
-          }
-        }
-        if (pi < pj) {
-          cnt++;
-        }
-      }
-      if (cnt === n) {
-        answer++;
-      }
-    }
-  }
+  // for (let i = 1; i <= m; i++) {
+  //   for (let j = 1; j <= m; j++) {
+  //     let cnt = 0;
+  //     for (let k = 0; k < n; k++) {
+  //       let pi = 0;
+  //       let pj = 0;
+  //       for (let s = 0; s < m; s++) {
+  //         if (test[k][s] === i) {
+  //           pi = s;
+  //         }
+  //         if (test[k][s] === j) {
+  //           pj = s;
+  //         }
+  //       }
+  //       if (pi < pj) {
+  //         cnt++;
+  //       }
+  //     }
+  //     if (cnt === n) {
+  //       answer++;
+  //     }
+  //   }
+  // }
 
   return answer;
 }

@@ -2,23 +2,23 @@
 
 function solution(s) {
   let answer = "YES";
-  let stack = [];
-  let count = 0;
-  for (let x of s) {
-    if (x === "(") {
-      stack.push(x);
-      count++;
-    } else {
-      stack.pop();
-      count--;
-      if (count < 0) {
-        return "NO";
-      }
-    }
-  }
-  if (count !== 0) {
-    return "NO";
-  }
+  // let stack = [];
+  // let count = 0;
+  // for (let x of s) {
+  //   if (x === "(") {
+  //     stack.push(x);
+  //     count++;
+  //   } else {
+  //     stack.pop();
+  //     count--;
+  //     if (count < 0) {
+  //       return "NO";
+  //     }
+  //   }
+  // }
+  // if (count !== 0) {
+  //   return "NO";
+  // }
 
   return answer;
 }

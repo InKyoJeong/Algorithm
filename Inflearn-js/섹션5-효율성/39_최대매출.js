@@ -28,15 +28,15 @@ console.log(solution(3, a));
 // 슬라이딩 윈도우 : 첫합 구하고 오른쪽으로 밀기
 function solution(k, arr) {
   let answer = 0;
-  let sum = 0;
-  for (let i = 0; i < k; i++) {
-    sum += arr[i];
-    answer = sum;
-  }
-  for (let i = k; i < arr.length; i++) {
-    sum = sum + arr[i] - arr[i - k];
-    answer = Math.max(answer, sum);
-  }
+  // let sum = 0;
+  // for (let i = 0; i < k; i++) {
+  //   sum += arr[i];
+  //   answer = sum;
+  // }
+  // for (let i = k; i < arr.length; i++) {
+  //   sum = sum + arr[i] - arr[i - k];
+  //   answer = Math.max(answer, sum);
+  // }
 
   return answer;
 }

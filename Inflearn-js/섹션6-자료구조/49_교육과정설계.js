@@ -1,21 +1,21 @@
 function solution(need, plan) {
   let answer = "YES";
-  let save = [];
-  let compare = [];
+  // let save = [];
+  // let compare = [];
 
-  for (let i = 0; i < need.length; i++) {
-    save.push(need[i]);
-  }
-  for (let i = 0; i < plan.length; i++) {
-    if (save.includes(plan[i])) {
-      compare.push(plan[i]);
-    }
-  }
-  for (let i = 0; i < need.length; i++) {
-    if (save[i] !== compare[i]) {
-      return "NO";
-    }
-  }
+  // for (let i = 0; i < need.length; i++) {
+  //   save.push(need[i]);
+  // }
+  // for (let i = 0; i < plan.length; i++) {
+  //   if (save.includes(plan[i])) {
+  //     compare.push(plan[i]);
+  //   }
+  // }
+  // for (let i = 0; i < need.length; i++) {
+  //   if (save[i] !== compare[i]) {
+  //     return "NO";
+  //   }
+  // }
   return answer;
 }
 

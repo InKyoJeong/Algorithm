@@ -46,12 +46,12 @@ function isPrime(x) {
 }
 function solution(arr) {
   let answer = [];
-  for (let x of arr) {
-    let reverseNum = Number(x.toString().split("").reverse().join(""));
-    if (isPrime(reverseNum)) {
-      answer.push(reverseNum);
-    }
-  }
+  // for (let x of arr) {
+  //   let reverseNum = Number(x.toString().split("").reverse().join(""));
+  //   if (isPrime(reverseNum)) {
+  //     answer.push(reverseNum);
+  //   }
+  // }
   return answer;
 }
 

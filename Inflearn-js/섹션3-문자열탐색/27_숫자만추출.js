@@ -14,12 +14,12 @@ console.log(solution(str));
 //
 // isNaN, parseInt
 function solution(s) {
-  let answer = "";
-  for (let x of s) {
-    if (!isNaN(x)) {
-      answer += x;
-    }
-  }
+  // let answer = "";
+  // for (let x of s) {
+  //   if (!isNaN(x)) {
+  //     answer += x;
+  //   }
+  // }
   return parseInt(answer);
 }
 
@@ -29,11 +29,11 @@ console.log(solution(str));
 // isNaN, Number
 function solution(s) {
   let answer = 0;
-  for (let x of s) {
-    if (!isNaN(x)) {
-      answer = answer * 10 + Number(x);
-    }
-  }
+  // for (let x of s) {
+  //   if (!isNaN(x)) {
+  //     answer = answer * 10 + Number(x);
+  //   }
+  // }
   return answer;
 }
 

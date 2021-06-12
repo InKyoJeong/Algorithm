@@ -2,28 +2,28 @@
 
 function solution(arr) {
   let answer = 0;
-  let n = arr.length;
-  let dx = [1, 0, -1, 0];
-  let dy = [0, 1, 0, -1]; //상우하좌
+  // let n = arr.length;
+  // let dx = [1, 0, -1, 0];
+  // let dy = [0, 1, 0, -1]; //상우하좌
 
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      let flag = 1;
-      for (let k = 0; k < 4; k++) {
-        let nx = i + dx[k];
-        let ny = j + dy[k];
-        if (0 <= nx && nx < n && 0 <= ny && ny < n) {
-          if (arr[i][j] <= arr[nx][ny]) {
-            flag = 0;
-            break;
-          }
-        }
-      }
-      if (flag) {
-        answer++;
-      }
-    }
-  }
+  // for (let i = 0; i < n; i++) {
+  //   for (let j = 0; j < n; j++) {
+  //     let flag = 1;
+  //     for (let k = 0; k < 4; k++) {
+  //       let nx = i + dx[k];
+  //       let ny = j + dy[k];
+  //       if (0 <= nx && nx < n && 0 <= ny && ny < n) {
+  //         if (arr[i][j] <= arr[nx][ny]) {
+  //           flag = 0;
+  //           break;
+  //         }
+  //       }
+  //     }
+  //     if (flag) {
+  //       answer++;
+  //     }
+  //   }
+  // }
   return answer;
 }
 

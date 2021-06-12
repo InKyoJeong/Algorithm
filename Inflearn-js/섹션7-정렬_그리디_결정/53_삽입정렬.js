@@ -1,18 +1,18 @@
 function solution(arr) {
   let answer = arr;
-  let n = arr.length;
-  for (let i = 1; i < n; i++) {
-    let temp = arr[i];
-    let j;
-    for (j = i - 1; j >= 0; j--) {
-      if (temp < arr[j]) {
-        arr[j + 1] = arr[j];
-      } else {
-        break;
-      }
-    }
-    arr[j + 1] = temp;
-  }
+  // let n = arr.length;
+  // for (let i = 1; i < n; i++) {
+  //   let temp = arr[i];
+  //   let j;
+  //   for (j = i - 1; j >= 0; j--) {
+  //     if (temp < arr[j]) {
+  //       arr[j + 1] = arr[j];
+  //     } else {
+  //       break;
+  //     }
+  //   }
+  //   arr[j + 1] = temp;
+  // }
   return answer;
 }
 

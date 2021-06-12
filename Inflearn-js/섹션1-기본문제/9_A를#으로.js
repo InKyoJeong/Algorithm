@@ -1,13 +1,13 @@
 // for 이용
 function solution(s) {
   let answer = "";
-  for (let x of s) {
-    if (x === "A") {
-      answer += "#";
-    } else {
-      answer += x;
-    }
-  }
+  // for (let x of s) {
+  //   if (x === "A") {
+  //     answer += "#";
+  //   } else {
+  //     answer += x;
+  //   }
+  // }
   return answer;
 }
 let str = "BANANA";
@@ -18,8 +18,8 @@ console.log(solution(str));
 // string 은 값이 복사되는것. 주소참조 아니므로 s = s.replace하면 안됨
 function solution(s) {
   let answer = s;
-  answer = answer.replace(/A/g, "#");
-  console.log(s);
+  // answer = answer.replace(/A/g, "#");
+  // console.log(s);
   return answer;
 }
 let str = "BANANA";
