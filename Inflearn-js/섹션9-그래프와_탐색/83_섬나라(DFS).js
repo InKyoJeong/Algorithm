@@ -17,7 +17,7 @@ function solution(board) {
 
   //   for (let i = 0; i < n; i++) {
   //     for (let j = 0; j < n; j++) {
-  //       // 섬 발견하면 답+1하고, 재귀들어가서 다 0만들기
+  //       // 섬 발견하면 답+1하고, 재귀들어가서 다 0만들기. 그니까 재귀가 몇번호출되느냐가 답
   //       if (board[i][j] === 1) {
   //         answer++;
   //         DFS(i, j);
