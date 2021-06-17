@@ -25,3 +25,18 @@ function solution(arr1, arr2) {
 let a = [1, 3, 9, 5, 2, 10];
 let b = [3, 2, 5, 7, 8, 11];
 console.log(solution(a, b));
+
+//////////////////////////////
+// 투포인터말고 includes 써보기
+function solution(arr1, arr2) {
+  let answer = [];
+
+  const same = arr1.filter((v) => arr2.includes(v)).sort((a, b) => a - b);
+  answer = same;
+
+  return answer;
+}
+
+let a = [1, 3, 9, 5, 2, 10];
+let b = [3, 2, 5, 7, 8, 11];
+console.log(solution(a, b));
