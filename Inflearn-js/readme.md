@@ -127,7 +127,7 @@
 
 <br>
 
-#### 섹션 10. Dynamic programming(동적계획법 )
+#### 섹션 10. Dynamic programming(동적계획법)
 
 - [ ] 85. 계단오르기
 - [ ] 86. 돌다리 건너기
