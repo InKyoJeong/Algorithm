@@ -1,14 +1,13 @@
 function solution(N, stages) {
   var answer = [];
-  let n = stages.length;
   let clear = Array.from({ length: N + 1 }, () => 0);
   let noClear = Array.from({ length: N + 1 }, () => 0);
   let fail = Array.from({ length: N + 1 }, () => 0);
 
+  // 스테이지에 도달한 플레이어 수
+  // 아직 클리어 못한 플레이어 수
   for (let i = 1; i <= N; i++) {
-    // 스테이지에 도달한 플레이어 수
     clear[i] = stages.filter((e) => e >= i).length;
-    // 아직 클리어 못한 플레이어 수
     noClear[i] = stages.filter((e) => e === i).length;
   }
   // 각 실패율 계산하고, 객체에 넣기
@@ -32,7 +31,6 @@ function solution(N, stages) {
 
 //////
 //리팩토링
-
 function solution(N, stages) {
   var answer = [];
   let clear = Array.from({ length: N + 1 }, () => 0);
@@ -48,7 +46,7 @@ function solution(N, stages) {
   arr.sort((a, b) => (b[1] === a[1] ? a[1] - b[1] : b[1] - a[1]));
 
   for (let x of arr) {
-    answer.push(Number(x[0] + 1));
+    answer.push(x[0] + 1);
   }
   return answer;
 }
