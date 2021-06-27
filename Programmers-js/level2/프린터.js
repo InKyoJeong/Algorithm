@@ -28,3 +28,25 @@ function solution(priorities, location) {
 
   return answer;
 }
+
+///////
+// 다른사람풀이 - map으로 객체 배열생성
+
+function solution(priorities, location) {
+  let list = priorities.map((t, i) => ({
+    my: i === location,
+    val: t,
+  }));
+  let count = 0;
+  while (true) {
+    let x = list.shift();
+    if (list.some((e) => e.val > x.val)) {
+      list.push(x);
+    } else {
+      count++;
+      if (x.my) {
+        return count;
+      }
+    }
+  }
+}

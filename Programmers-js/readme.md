@@ -8,6 +8,6 @@
 
 #### Level 2
 
-| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587?language=javascript) |     |     |     |
-| :------------------------------------------------------------------------------------- | :-- | :-- | :-- |
-|                                                                                        |     |     |     |
+| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587?language=javascript) | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165?language=javascript) |     |     |
+| :------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | :-- | :-- |
+|                                                                                        |                                                                                           |     |     |
