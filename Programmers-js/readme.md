@@ -6,6 +6,7 @@
 | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
 | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410?language=javascript)   | [소수만들기](https://programmers.co.kr/learn/courses/30/lessons/12977?language=javascript)  | [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)                           | [K번째수 ](https://programmers.co.kr/learn/courses/30/lessons/42748?language=javascript)      |
 | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript) | [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501?language=javascript) | [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935?language=javascript) | [[1차]비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681?language=javascript) |
+| [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840?language=javascript)           |                                                                                             |                                                                                              |                                                                                               |
 
 #### Level 2
 
