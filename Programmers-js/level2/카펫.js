@@ -33,3 +33,21 @@ function solution(brown, yellow) {
   }
   return answer;
 }
+
+/////
+// 리팩토링
+function solution(brown, yellow) {
+  var answer = [];
+  let sum = brown + yellow;
+  let temp = [];
+
+  for (let i = Math.floor(sum / 2); i >= 3; i--) {
+    if (sum % i === 0 && sum / i >= i) {
+      if ((sum / i + i) * 2 - 4 === brown) {
+        answer.push(sum / i);
+        answer.push(i);
+      }
+    }
+  }
+  return answer;
+}
