@@ -12,7 +12,7 @@
 
 | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587?language=javascript)   | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165?language=javascript) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578?language=javascript) | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586?language=javascript) |
 | :--------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
-| [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058?language=javascript) |                                                                                           |                                                                                      |                                                                                          |
+| [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058?language=javascript) | [올바른괄호](https://programmers.co.kr/learn/courses/30/lessons/12909)                    |                                                                                      |                                                                                          |
 
 #### Level 3
 
