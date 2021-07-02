@@ -40,3 +40,35 @@ function solution(genres, plays) {
 
   return answer;
 }
+
+//////
+// 다른풀이 : reduce
+function solution(genres, plays) {
+  var answer = [];
+
+  // 장르 별 총 수
+  let genrMap = genres.reduce((a, v, i) => {
+    if (!a[v]) a[v] = { cnt: 0, list: [] };
+    a[v].list.push(i);
+    a[v].cnt += plays[i];
+    return a;
+  }, {});
+
+  //   console.log(genrMap);
+
+  // 장르 당 2순위
+  let genrSort = Object.keys(genrMap).sort(
+    (a, b) => genrMap[b].cnt - genrMap[a].cnt
+  );
+  //   console.log(genrSort);
+
+  genrSort.forEach((v) => {
+    let list = genrMap[v].list.sort((a, b) => {
+      return plays[b] - plays[a];
+    });
+    let ans = list.slice(0, 2);
+    answer.push(...ans);
+  });
+
+  return answer;
+}
