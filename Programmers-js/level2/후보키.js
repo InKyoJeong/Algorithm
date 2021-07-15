@@ -80,6 +80,7 @@ function solution(relation) {
   const candidateKeys = candidate.filter((v, idx) => {
     for (let i = 0; i < candidate.length; i++) {
       if (i === idx) continue;
+      // 포함이되면 최소성 탈락
       if (isPart(v, candidate[i])) {
         return false;
       }
