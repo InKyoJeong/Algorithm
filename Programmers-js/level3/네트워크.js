@@ -56,3 +56,31 @@ function solution(n, computers) {
 
   return answer;
 }
+
+////
+// 함수 하나로
+
+function solution(n, computers) {
+  var answer = 0;
+  let check = Array.from({ length: n }, () => 0);
+  let queue = [];
+
+  for (let i = 0; i < n; i++) {
+    if (!check[i]) {
+      answer++;
+      queue.push(i);
+      check[i] = 1;
+      while (queue.length) {
+        let x = queue.shift();
+        for (let i = 0; i < n; i++) {
+          if (computers[x][i] === 1 && check[i] === 0) {
+            queue.push(i);
+            check[i] = 1;
+          }
+        }
+      }
+    }
+  }
+
+  return answer;
+}
