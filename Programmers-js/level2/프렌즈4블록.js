@@ -69,16 +69,9 @@ function solution(m, n, board) {
     });
 
     // 배열 다시돌리기 // 4*5
-    let c = Array.from({ length: m }, () => Array(n).fill(0));
     for (let i = 0; i < m; i++) {
       for (let j = 0; j < n; j++) {
-        c[i][j] = b[j][m - 1 - i];
-      }
-    }
-
-    for (let i = 0; i < m; i++) {
-      for (let j = 0; j < n; j++) {
-        a[i][j] = c[i][j];
+        a[i][j] = b[j][m - 1 - i];
       }
     }
   }
