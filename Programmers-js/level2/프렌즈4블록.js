@@ -1,13 +1,6 @@
 function solution(m, n, board) {
   var answer = 0;
-  // 1) 먼저 2x2들을 전부 찾기
-  // 2) 바로제거하지 않고 기억만 해두기
-  // 3) 제거하기 (0으로 만들기)
-  // 4) 빈칸 땡기기
-  // 2x2 가없을때까지 반복
-  // 5) 체크에 푸시한게없으면 답구하고 빠져나가기
 
-  // 먼저 배열에다가 저장
   let a = Array.from({ length: m }, () => Array(n).fill(0));
   for (let i = 0; i < m; i++) {
     for (let j = 0; j < n; j++) {
@@ -49,7 +42,7 @@ function solution(m, n, board) {
       a[x + 1][y + 1] = 0;
     }
 
-    // 배열 돌리기
+    // 배열 90도 돌리기
     let b = Array.from({ length: n }, () => Array(m).fill(0));
     for (let i = 0; i < n; i++) {
       for (let j = 0; j < m; j++) {
@@ -68,7 +61,7 @@ function solution(m, n, board) {
       }
     });
 
-    // 배열 다시돌리기 // 4*5
+    // 배열 원래대로 돌리기
     for (let i = 0; i < m; i++) {
       for (let j = 0; j < n; j++) {
         a[i][j] = b[j][m - 1 - i];
@@ -77,3 +70,11 @@ function solution(m, n, board) {
   }
   return answer;
 }
+
+// 1) 먼저 2x2들을 전부 찾기
+// 2) 바로제거하지 않고 기억만 해두기
+// 3) 제거하기 (0으로 만들기)
+// 4) 빈칸 땡기기
+// 2x2 가없을때까지 반복
+// 5) 체크에 푸시한게없으면 답구하고 빠져나가기
+// 먼저 배열에다가 저장
