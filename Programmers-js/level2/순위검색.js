@@ -53,8 +53,8 @@ function solution(info, query) {
     for (let i = L; i < 4; i++) {
       let copyArr = arr.slice();
       copyArr[i] = "-";
-      combination(copyArr, score, map, i + 1);
       // console.log(copyArr)
+      combination(copyArr, score, map, i + 1);
     }
   }
 
