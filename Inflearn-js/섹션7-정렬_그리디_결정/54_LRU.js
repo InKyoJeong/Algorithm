@@ -64,7 +64,11 @@ function solution(size, arr) {
   let answer = [];
   arr.forEach((x) => {
     let pos = -1;
-    for (let i = 0; i < size; i++) if (x === answer[i]) pos = i;
+    for (let i = 0; i < size; i++) {
+      if (x === answer[i]) {
+        pos = i;
+      }
+    }
     if (pos === -1) {
       answer.unshift(x);
       if (answer.length > size) answer.pop();
