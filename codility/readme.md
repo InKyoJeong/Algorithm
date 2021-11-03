@@ -12,3 +12,9 @@
 - [FrogJmp](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) [100%]
 - [PermMissingElem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) [100%]
 - [TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) [100%]
+
+#### Lesson 4 - Counting Elements
+
+#### Lesson 5 - Prefix Sums
+
+- [PassingCars](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) [50%] [100%]
