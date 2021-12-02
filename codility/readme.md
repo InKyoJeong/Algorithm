@@ -15,6 +15,9 @@
 
 #### Lesson 4 - Counting Elements
 
+- [FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/start/) [100%]
+- [PermCheck](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) [100%]
+
 #### Lesson 5 - Prefix Sums
 
 - [PassingCars](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) [50%] [100%]
