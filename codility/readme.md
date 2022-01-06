@@ -22,5 +22,18 @@
 
 #### Lesson 5 - Prefix Sums
 
-- [PassingCars](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) [50%]->[100%]
-- [CountDiv](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) [50%]->[100%]
+- PassingCars [50%]->[100%]
+- CountDiv [50%]->[100%]
+
+#### Lesson 6 - Sorting
+
+- Distinct [100%]
+- MaxProductOfThree [100%]
+
+#### Lesson 7 - Stacks and Queues
+
+- Brackets [100%]
+
+#### Lesson 8 - Leader
+
+- Dominator [100%]
