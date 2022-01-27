@@ -35,3 +35,58 @@ function solution(id_list, report, k) {
 
   return Object.values(obj);
 }
+
+//////
+// 다시풀이
+
+function solution(id_list, report, k) {
+  let reports = [...new Set(report)].map((v) => v.split(" "));
+
+  // 신고받은 개수
+  const count = new Map();
+  for (const x of reports) {
+    if (count.has(x[1])) {
+      count.set(x[1], count.get(x[1]) + 1);
+    } else {
+      count.set(x[1], 1);
+    }
+  }
+
+  // 처리 결과 개수
+  const obj = {};
+  for (const x of reports) {
+    if (count.get(x[1]) >= k) {
+      obj[x[0]] ? obj[x[0]]++ : (obj[x[0]] = 1);
+    }
+  }
+
+  return id_list.map((v) => {
+    if (obj[v] > 0) {
+      return obj[v];
+    } else {
+      return 0;
+    }
+  });
+}
+
+////
+// 다시풀이
+function solution(id_list, report, k) {
+  let reports = [...new Set(report)].map((v) => v.split(" "));
+
+  const count = new Map();
+  for (const x of reports) {
+    count.set(x[1], count.get(x[1]) + 1 || 1);
+  }
+
+  const obj = {};
+  for (const x of reports) {
+    if (count.get(x[1]) >= k) {
+      obj[x[0]] ? obj[x[0]]++ : (obj[x[0]] = 1);
+    }
+  }
+
+  return id_list.map((v) => {
+    return obj[v] > 0 ? obj[v] : 0;
+  });
+}
