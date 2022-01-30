@@ -5,7 +5,7 @@ function solution(fees, records) {
   const outQueue = [];
   const LAST_MIN = 23 * 60 + 59;
 
-  // 입차출차 분류
+  // 입출 분류
   records.forEach((record) => {
     const [time, carNum, inOut] = record.split(" ");
     const [hh, mm] = time.split(":");
@@ -17,7 +17,7 @@ function solution(fees, records) {
     }
   });
 
-  // 출차가 있으면 시간계산
+  // 출차가 있는 경우
   const result = new Map();
   while (outQueue.length) {
     const [num, minute] = outQueue.shift();
@@ -27,7 +27,7 @@ function solution(fees, records) {
     }
   }
 
-  // 출차가 없는것들
+  // 출차가 없는 경우
   const numList = Object.keys(inObj);
   numList.forEach((num) => {
     if (inObj[num].length !== 0) {
